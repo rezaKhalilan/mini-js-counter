@@ -1,0 +1,35 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./tech.png");
+    color: rgb(11, 14, 51);
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.counter-box {
+    flex: 0 0 50%;
+    text-align: center;
+    border: 3px solid gray;
+    padding: 1rem;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px black;
+}
+
+.counter {
+    font-size: 6rem;
+}
+
+.btn {
+    background-color: rgb(11, 14, 51);
+    border-radius: 8px;
+    border: 3px;
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin: 0.5rem 0.25rem;
+    color: white;
+    outline: none;
+}
